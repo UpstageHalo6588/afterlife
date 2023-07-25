@@ -1,0 +1,89 @@
+*{margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    }
+    .banner{
+
+        background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(loginbanner.jpg);
+        background-size: cover;
+    
+        /* Center the background image horizontally and vertically */
+        background-position: center;
+        
+        /* Set the background to not repeat */
+        background-repeat: no-repeat;
+        
+        /* Set a fixed height for the container, or adjust as needed */
+        height: 100vh; /* 100% of the viewport height */
+      }
+      
+      /* Use media queries to adjust background properties for different devices */
+      
+      /* For smaller devices (e.g., smartphones) */
+      @media (max-width: 768px) {
+        .responsive-background {
+          /* Adjust background size and position for smaller screens */
+          background-size: contain;
+          background-position: top;
+        }
+      }
+      
+      /* For tablets and larger devices */
+      @media (min-width: 769px) {
+        .responsive-background {
+          /* Adjust background size and position for larger screens */
+          background-size: cover;
+          background-position: center;
+        }
+    }
+    h1{font-size: 100px;text-decoration:color-mix(in lch longer hue, color percentage, color percentage); color:rgb(255, 255, 255) ;}
+
+    .content {
+      position: relative;
+      z-index: 1;
+      color: #fff; 
+      text-align: center;
+      padding: 20px;
+    }
+    .container {
+      max-width: 460px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .container h2 {
+      text-align: center;
+    }
+    .form-group {
+      margin-bottom: 25px;
+    }
+    .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .form-group input {
+      width: 100%;
+      padding: 2px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .form-group button {
+      width: 100%;
+      padding: 12px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+
+ 
+ 
+  
+  
+  
+  

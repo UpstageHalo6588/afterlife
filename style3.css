@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(53, 52, 52, 0.75), rgba(3, 3, 3, 0.75)), url('girl-in-balcony-dark-anime-aesthetic-desktop-hq1jsdgwmtrskebb.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.glow-button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #007bff;
+  transition: box-shadow 0.3s ease;
+}
+
+.glow-button:hover {
+  animation: glow 1s ease infinite;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px #007bff, 0 0 20px #007bff, 0 0 30px #007bff;
+  }
+  50% {
+    box-shadow: 0 0 20px #007bff, 0 0 30px #007bff, 0 0 40px #007bff;
+  }
+  100% {
+    box-shadow: 0 0 10px #007bff, 0 0 20px #007bff, 0 0 30px #007bff;
+  }
+}
+
+a {
+  color: #007bff;
+}
+
+p {
+  font-size: larger;
+}
+
+h3 {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.end {
+  text-align: end;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+li {
+  font-size: larger;
+}

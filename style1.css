@@ -1,0 +1,159 @@
+*{margin: 0;
+padding: 0;
+box-sizing:border-box;
+font-family: 'Poppins', sans-serif;
+}
+.banner{
+
+  background-image: linear-gradient(rgba(53, 52, 52, 0.75),rgba(3, 3, 3, 0.75)), url(https://wallpapercave.com/wp/wp8463189.jpg);
+    background-size: cover;
+    
+    /* Center the background image horizontally and vertically */
+    background-position: center;
+    
+    /* Set the background to not repeat */
+    background-repeat: no-repeat;
+    
+    /* Set a fixed height for the container, or adjust as needed */
+    height: 100vh; /* 100% of the viewport height */
+  }
+  
+  /* Use media queries to adjust background properties for different devices */
+  
+  /* For smaller devices (e.g., smartphones) */
+  @media (max-width: 768px) {
+    .responsive-background {
+      /* Adjust background size and position for smaller screens */
+      background-size: contain;
+      background-position: top;
+    }
+  }
+  
+
+
+  /* For tablets and larger devices */
+  @media (min-width: 769px) {
+    .responsive-background {
+      /* Adjust background size and position for larger screens */
+      background-size: cover;
+      background-position: center;
+    }
+}
+img{width: 10%;}
+            hr{background-color: rgb(102, 96, 95); height: 3px}
+            li {
+                color: rgb(114, 112, 112); /* Replace with your desired text color */
+              }
+
+              .end-of-page {
+                /* Set the positioning to fixed */
+                position: fixed;
+                
+                /* Set the element to always stick to the bottom */
+                bottom: 0;
+                
+                /* Set the width of the element, or adjust as needed */
+                width: 100%;
+                
+                /* Set the background color and other styles as desired */
+
+                padding: 10px;
+                text-align: center;
+                font-size: 16px;
+              }
+
+
+
+              /* Common styles for both pages (same as before) */
+
+
+
+
+
+              /* Common styles for both pages */
+
+/* Glowing button styles */
+.glow-button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #070707;
+  transition: box-shadow 0.3s ease; /* Adjust the transition duration and easing as needed */
+}
+
+.glow-button:hover {
+  animation: glow 2s ease infinite; /* Adjust the animation duration and easing as needed */
+}
+
+/* Define the glowing animation */
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px #4e4e4e, 0 0 20px #757474, 0 0 30px #a5a4a4;
+  }
+  50% {
+    box-shadow: 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff;
+  }
+  100% {
+    box-shadow: 0 0 10px #4e4e4e, 0 0 20px #757474, 0 0 30px #a5a5a5;
+  }
+}
+
+main{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100%
+}
+
+section{
+  
+  text-align: center;
+}
+
+.container {
+  width: 90%; /* Set the width as needed */
+  max-width: 800px; /* Set a maximum width for the container if desired */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Set padding for spacing */
+}
+
+.right-side {
+ float: right;
+  padding-right: 25px;
+}
+
+.logo{
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   
+}
+
+header ul li{
+  list-style: none;
+  margin-left: 20px;
+}
+
+audio{
+  display: none;
+}
+
+
+.font{
+  font-size: larger ;
+}
+a{
+ color: red;
+}
